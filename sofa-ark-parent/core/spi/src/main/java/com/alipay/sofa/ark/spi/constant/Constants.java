@@ -142,6 +142,13 @@ public class Constants {
     public final static String       TELNET_SERVER_ENABLE                          = "sofa.ark.telnet.server.enable";
     public final static String       TELNET_SERVER_SECURITY_ENABLE                 = "sofa.ark.telnet.security.enable";
     public final static String       CONFIG_SERVER_ENABLE                          = "sofa.ark.config.server.enable";
+
+    /**
+     * 配置中心支持, 默认使用zookeeper
+     */
+    public final static String       CONFIG_SERVER_TYPE                            = "sofa.ark.config.server.type";
+    public final static String       CONFIG_APOLLO_NAMESPACE                       = "sofa-ark";
+    public final static String       APOLLO_MASTER_BIZ_KEY                         = "masterBiz";
     public final static String       TELNET_PORT_ATTRIBUTE                         = "sofa.ark.telnet.port";
     public final static int          DEFAULT_TELNET_PORT                           = 1234;
     public final static int          DEFAULT_SELECT_PORT_SIZE                      = 100;
